@@ -15,6 +15,7 @@ dnf5 -y copr enable lionheartp/Hyprland
 # this installs a package from fedora repos
 dnf5 install -y \
     hyprland \
+    noctalia-hyprland-meta \
     xdg-desktop-portal-hyprland \
     hyprpolkitagent \
     greetd \
@@ -30,7 +31,8 @@ dnf5 install -y \
     wofi \
     mako \
     wl-clipboard \
-    tmux
+    tmux \
+    hyprland-guiutils
 
 dnf5 -y copr disable lionheartp/Hyprland
 # Enabling services
